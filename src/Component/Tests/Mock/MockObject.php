@@ -19,7 +19,7 @@ class MockObject
     /**
      * @var integer
      */
-    private $int;
+    private $integer;
 
     /**
      * @var array
@@ -27,13 +27,13 @@ class MockObject
     private $array;
 
     /**
-     * @var DateTime
+     * @var \DateTime
      */
     private $dateTime;
 
     public function __construct(){
         $this->string = 'string';
-        $this->integer= 42;
+        $this->integer = 42;
         $this->array = array('key1' => 'value1', 'key2' => 'value2', 'key3' => 'value3');
         $this->dateTime = new \DateTime();
     }
@@ -47,11 +47,11 @@ class MockObject
     }
 
     /**
-     * @return int
+     * @return integer
      */
-    public function getInt()
+    public function getInteger()
     {
-        return $this->int;
+        return $this->integer;
     }
 
     /**
@@ -63,7 +63,7 @@ class MockObject
     }
 
     /**
-     * @return DateTime
+     * @return \DateTime
      */
     public function getDateTime()
     {
