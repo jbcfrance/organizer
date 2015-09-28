@@ -11,3 +11,4 @@
 /web/bundles/
 /web/code-coverage/
 /.idea/
+!/web.favicon.ico
